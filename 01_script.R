@@ -2,6 +2,7 @@ library(dplyr)
 library(ggplot2)
 
 path <- "/Volumes/some path I regret using later/data"
+path2 <- "/Volumes/another example/data"
 
 df <- starwars
 
