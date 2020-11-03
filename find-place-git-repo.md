@@ -11,8 +11,11 @@ Approach using [{git-filter-repo}](https://github.com/newren/git-filter-repo):
 * run `git filter-repo --replace-text expressions.txt`  
 * re-add remote with `git remote add origin <address>`  
 * force push with `git push origin main --force`  
-* fix greyed out git buttons in RStudio if using RStudio later with `git push -u origin main`  
+* fix resulting greyed-out git buttons in RStudio if using RStudio `git push -u origin main`  
 
-
+---
 [Why {git-filter-repo}](https://github.com/newren/git-filter-repo/blob/main/README.md#why-filter-repo-instead-of-other-alternatives)?  
-[Other helpful EXAMPLES](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html#EXAMPLES) for solving git challenges with {git-filter-repo}.  
+Approach using [`git filter-branch`](https://stackoverflow.com/questions/7194939/git-change-one-line-in-file-for-the-complete-history/7198036#7198036)  
+
+
+ 
