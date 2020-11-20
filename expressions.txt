@@ -1,2 +1,0 @@
-literal:secret1==>secret1
-literal:secret2==>secret2
