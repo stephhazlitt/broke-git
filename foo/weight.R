@@ -1,8 +1,8 @@
 library(dplyr)
 library(ggplot2)
 
-path <- "/secret1/data"
-path2 <- "/secret2/data"
+path <- "/temp1/data"
+path2 <- "/temp2/data"
 
 df <- starwars
 
