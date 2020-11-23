@@ -2,7 +2,7 @@ library(dplyr)
 library(ggplot2)
 
 path <- "/some path I regret using later/data"
-path2 <- "/secret2/data"
+path2 <- "/another example/data"
 
 df <- starwars
 
