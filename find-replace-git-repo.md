@@ -11,9 +11,9 @@ Approach using [{git-filter-repo}](https://github.com/newren/git-filter-repo):
  * provide the find-replace strings in a manually created `.txt` file inside the repo (but do not include the `.txt` file in the git history)  
      * e.g. a text file with the line `literal:/some committed text you want removed/==>/replace with this text/` will find all strings of `some committed text you want removed` and replace with `replace with this text`
      * Full instructions are [here](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html)  
- * run `git filter-repo --replace-text expressions.txt`  
+ * run `git filter-repo --replace-text expressions.txt`  (if you are not working on a fresh clone you need to add `--force`)
  * re-add remote with `git remote add origin <address>`  
- * force push with `git push origin main --force`  
+ * force push with `git push origin main --force` (replace `main` with  your default branch name)
  * fix resulting greyed-out git buttons in RStudio if using RStudio `git push -u origin main`  
 
 ---
